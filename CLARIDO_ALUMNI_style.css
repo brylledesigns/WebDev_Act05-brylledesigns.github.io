@@ -1,0 +1,115 @@
+body {
+	font-size: 18px;
+	font-family: Arial;
+	background: #b8dfee;
+}
+
+header {
+	background: #258cb3;
+	color: #fff;
+	padding: 20px;
+	border-bottom: 10px;
+	box-shadow: 8px 1px 5px #888888;
+	float: left;
+	margin-top: -8px
+}
+
+.top-nav-bar {
+	background: transparent;
+	padding: 10px;
+	font-size: 20px;
+	width: 1328px;
+	float: left;
+	margin-left: -30px;
+}
+
+.text-content {
+	float: right;
+	margin-top: 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 50px;
+}
+
+.text-content:hover {
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+.box-login {
+	width: 85px;
+	height: 40px;
+	border: 1px solid white;
+	background-color: white;
+	float: right;
+	position: relative;
+	margin-top: -12px;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+
+.box-login:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 5px 1px #000000;
+}
+
+.box-login-id-picture {
+	width: 10px;
+	height: 10px
+	border: 1px solid black;
+	background-color: black;
+}
+
+.text-login {
+	color: #258cb3;
+	font-size: 15px;
+	z-index: 3;
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.myschool-title {
+	position: absolute;
+	float: left;
+	margin-top: -5px;
+	font-size: 30px;
+	margin-left: 80px;
+}
+
+.account-container {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #e3f2f8;
+	background: #e3f2f8;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+hr.myHr {
+	margin-top: 180px;
+}
+
+.profile-id {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border: 1px solid white;
+	background: white;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.name {
+	color: #258cb3;
+	font-size: 30px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 70px;
+}
