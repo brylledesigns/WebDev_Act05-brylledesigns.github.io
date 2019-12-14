@@ -1,8 +1,17 @@
-body {
+html, body {
 	font-size: 18px;
 	font-family: Arial;
 	background: #b8dfee;
+	
 }
+
+/* #wrapper {
+	margin-right: auto;
+	margin-left:  auto;
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left:  10px;
+} */
 
 header {
 	background: #258cb3;
@@ -11,17 +20,31 @@ header {
 	border-bottom: 10px;
 	box-shadow: 8px 1px 5px #888888;
 	float: left;
-	margin-top: -8px
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .top-nav-bar {
 	background: transparent;
 	padding: 10px;
 	font-size: 20px;
-	width: 1328px;
+	width: 1488px;
 	float: left;
+	left: 0px;
 	margin-left: -30px;
+	margin-top: 20px;
 }
+
+/* .header-control {
+	float: left;
+	position: absolute;
+	margin-left: -100px;
+} */
 
 .text-content {
 	float: right;
@@ -51,14 +74,14 @@ header {
 
 .box-login:hover {
 	cursor: pointer;
-	box-shadow: 3px 3px 5px 1px #000000;
+	box-shadow: 10px 10px 20px -10px #000000;
 }
 
 .box-login-id-picture {
 	width: 10px;
 	height: 10px
-	border: 1px solid black;
-	background-color: black;
+	/* border: 1px solid black;
+	background-color: black; */
 }
 
 .text-login {
@@ -87,6 +110,8 @@ header {
 	float: left;
 	margin-top: 10px;
 	border-radius: 10px;
+	position: sticky;
+	top: 10px;
 }
 
 hr.myHr {
@@ -94,6 +119,7 @@ hr.myHr {
 }
 
 .profile-id {
+	background: url(images/profile1.jpg);
 	position: absolute;
 	width: 120px;
 	height: 120px;
@@ -104,6 +130,7 @@ hr.myHr {
 	margin-left: 20px;
 	text-align: center;
 	font-size: 10px;
+	
 }
 
 .name {
@@ -113,3 +140,301 @@ hr.myHr {
 	margin-top: 50px;
 	margin-right: 70px;
 }
+
+.course {
+	float: left;
+	margin-left: 165px;
+	margin-top: -28px;
+	color: #258cb3;
+	font-size: 15px;
+}
+
+.yearLevel {
+	float: left;
+	margin-left: 164px;
+	margin-top: -13px;
+	color: #258cb3;
+	font-size: 15px;
+}
+
+.follower-container {
+	text-align: center;
+	color: #258cb3;
+	margin-left: -150px;
+}
+
+.following-container {
+	text-align: center;
+	color: #258cb3;
+	margin-left: 150px;
+	margin-top: -82px;
+}
+
+.followers-count, .following-count {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.follower-text, .following-text{
+	float: center;
+	font-size: 15px;
+	margin-top: -30px;
+}
+
+.tips-container {
+	width: 800px;
+	height: 580px;
+	border: 1px solid #e3f2f8;
+	background: #e3f2f8;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+.title {
+	color: #258cb3;
+	float: left;
+	margin-left: 30px;
+	margin-top: -60px;
+}
+
+.title-text {
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.user-account {
+	float: left;
+}
+
+.user-account2 {
+	float: left;
+	margin-top: 20px;
+}
+
+.description-text {
+	margin-top: -80px;
+	float: left;
+}
+
+.boy-tips-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.profile-picture-tips-container {
+	float: left;
+	margin-left: 30px;
+}
+
+.profile-text {
+	color: #258cb3;
+	font-size: 15px;
+	margin-left: 200px;
+	float: left;
+	margin-top: -175px;
+}
+
+.container-profile-name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.container-profile-course {
+	margin-top: -30px;
+}
+
+button {
+	border: 1px solid white;
+	background-color: white;
+	color: #258cb3;
+	padding: 0px;
+	height: 35px;
+	width: 180px;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 10px 10px 30px -15px black;
+}
+
+button:hover {
+	cursor: pointer;
+	color: white;
+	border: 1px solid #258cb3;
+	background-color: #258cb3;
+	transition: 0.3s;
+}
+
+.button-follow-tips {
+	float: right;
+	margin-right: 20px;
+	margin-top: -20px;
+}
+
+.show-more-option {
+	color: #258cb3;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 360px;
+}
+
+.show-more-option:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.inpiration-container {
+	width: 800px;
+	height: 700px;
+	border: 1px solid #e3f2f8;
+	background: url(images/inspirations.jpg);
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-left: 323px;
+}
+
+.title-text-inspiration {
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 70px;
+}
+
+.description-text-inspiration {
+	margin-top: -70px;
+	float: left;
+}
+
+.title-inspiration {
+	color: #258cb3;
+	float: left;
+	margin-left: 30px;
+	margin-top: 280px;
+}
+
+.inspirations-peek {
+	margin-top: -25px;
+	float: left;
+}
+
+.detail-on-image {
+	color: #258cb3;
+	text-align: right;
+	float: right;
+	margin-right: 400px;
+	margin-top: -500px;
+	font-size: 15px;
+}
+
+.name-user {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.course-year-user{
+	margin-top: -25px;
+}
+
+.user-qoute {
+	margin-top: -10px;
+}
+
+.learn-container {
+	width: 800px;
+	height: 700px;
+	border: 1px solid #e3f2f8;
+	background: url(images/learn.jpg);
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-left: 323px;
+}
+
+.learn-share {
+	margin-top: -25px;
+	float: left;
+	width: 300px;
+}
+
+.learn-learn {
+	width: 300px;
+	margin-top: 20px;
+	float: left;
+	margin-left: -300px;
+}
+
+.title-learn {
+	color: #258cb3;
+	float: left;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.detail-on-image-learn {
+	color: #fff;
+	text-align: right;
+	float: right;
+	margin-right: 50px;
+	margin-top: 250px;
+	font-size: 15px;
+}
+
+.schedule-container {
+	width: 360px;
+	height: 500px;
+	border: 1px solid #e3f2f8;
+	background: #e3f2f8;
+	float: right;
+	margin-top: -1303px;
+	border-radius: 10px;
+}
+
+.schedule-text {
+	color: #258cb3;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.date-today {
+	color: #258cb3;
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 20px;
+	margin-top: -43px;
+	float: right;
+}
+
+.schedule-format {
+	color: #258cb3;
+	margin-top: 20px;
+}
+
+.schedule-profile {
+	border: 1px solid white;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-left: 25px;
+}
+
+.schedule-text-content {
+	float: left;
+	margin-left: 120px;
+	margin-top: -80px;
+}
+
+.schedule-title {
+	font-weight: bold;
+}
+
+.schedule-time {
+	font-size: 15px;
+	margin-top: -18px;
+}
+
+
